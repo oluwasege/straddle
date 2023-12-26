@@ -1,0 +1,544 @@
+.about__top {
+    height: 900px;
+    background-color: #126887;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about__top h1 {
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.005em;
+    text-align: center;
+
+}
+
+.about__top p {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.001em;
+    text-align: center;
+    color: white;
+    width: 541px;
+    height: 48px;
+    margin: auto;
+
+
+}
+
+.yellow {
+    color: #FFDC66;
+}
+
+#middle__excellence{
+    background-color: orange !important;
+}
+
+
+.about__center {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.about__section {
+    display: flex;
+    margin: 2rem;
+
+
+}
+
+.about__section .about__center .reverse {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+
+.about__center-text {
+    margin: auto;
+}
+
+.about__section img {
+    width: 600px;
+    height: 600px
+}
+
+.about__section-text {
+    width: 440px;
+    height: 186px;
+    gap: 12px;
+    margin: auto;
+    margin-left: 8rem;
+
+}
+
+.about__section h1 {
+
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.005em;
+    text-align: left;
+
+}
+
+.about__section p {
+
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.001em;
+    text-align: left;
+    color: #12A3D8;
+
+
+}
+
+
+.about__values {}
+
+.about__values-text {
+    margin: auto;
+    width: 260px;
+    height: 72px;
+    margin-bottom: 2rem;
+}
+
+.about__values-text h1 {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.003em;
+    text-align: left;
+    margin-left: 1.5rem;
+
+}
+
+.about__values-text p {
+
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.001em;
+    text-align: left;
+    color: #126887;
+
+}
+
+.about__excellence {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__center .reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.values {
+    width: 357px;
+    height: 240px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #5FCAF266;
+
+}
+
+.values h1 {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.001em;
+    text-align: left;
+    margin-top: 15px;
+
+}
+
+.values p {
+    font-family: "Poppins";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #455A64;
+    ;
+
+}
+
+.work__with {
+    height: 292px;
+    background-color: #0C455A;
+    margin-top: 2rem;
+}
+
+.work__with-text {
+    margin: 2rem;
+}
+
+.work__with-text h1 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.003em;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+
+}
+
+.work__with p {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.001em;
+    text-align: center;
+    color: white;
+    width: 992px;
+    height: 48px;
+    margin: auto;
+
+
+}
+
+.work__with button {
+    width: 300px;
+    height: 48px;
+    padding: 12px, 41px, 12px, 41px;
+    border-radius: 8px;
+    gap: 8px;
+    background: #5FCAF2;
+    color: #06232D;
+    border: none;
+    margin-left: 29rem;
+}
+
+.meet__team {
+    height: 670px;
+
+}
+
+.meet__team-text {
+    width: 1199px;
+    height: 114px;
+    margin-bottom: 2rem;
+
+}
+
+.meet__team-text h1 {
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.005em;
+    text-align: center;
+
+}
+
+.meet__team-text p {
+
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.001em;
+    text-align: center;
+    color: #0C455A;
+
+
+}
+
+.team {
+    width: 1352px;
+    height: 388px;
+
+
+}
+
+.team__text {
+    margin: 1rem 4rem 0 0;
+}
+
+.team__text h3 {
+    font-family: "Poppins";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.team__socials {
+    margin: 1rem;
+    text-align: center;
+}
+
+.team__text p {
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.team__actual {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+@media screen and (max-width:550px) {
+    .about__top {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about__top h1 {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 3rem;
+
+    }
+
+    .about__top p {
+        font-size: 16px;
+        font-weight: 400;
+        width: 341px;
+        height: 28px;
+        margin-bottom: 2rem;
+
+    }
+
+    .about__center {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+
+    }
+
+    .about__section {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 0rem;
+
+
+    }
+
+    .about__section h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+
+    .about__section p {
+        font-size: 16px;
+
+    }
+
+    .about__section img {
+        width: 310px;
+        height: 300px;
+        margin-bottom: 2rem;
+    }
+
+    .about__section-text {
+        width: 340px;
+        height: 85px;
+        gap: 12px;
+        margin: auto;
+        margin-left: 0rem;
+
+    }
+
+    .about__values-text {
+        margin: auto;
+        width: 260px;
+        height: 72px;
+        margin-top: 2rem;
+    }
+
+    .about__values-text h1 {
+        font-size: 27px;
+        margin-left: 0.5rem;
+    }
+
+    .about__values-text p {
+
+        font-size: 16px;
+        color: #126887;
+    }
+
+    .about__excellence {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about__center .reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .values {
+        margin-bottom: 2rem;
+        width: 322px;
+        height: 220px;
+        padding: 40px;
+        border-radius: 9px;
+        background-color: #5FCAF266;
+
+    }
+
+    .values h1 {
+        font-size: 19px;
+        line-height: 20px;
+        text-align: left;
+        margin-top: 10px;
+
+    }
+
+    .values p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        color: #455A64;
+        margin-top: 1rem;
+    }
+
+    .about__excellence {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work__with {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: 23rem;
+    }
+
+    .work__with-text {
+        margin: 0rem;
+    }
+
+    .work__with-text h1 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 2rem;
+
+    }
+
+    .work__with p {
+        font-size: 14px;
+        line-height: 18px;
+        width: 350px;
+        height: 28px;
+        margin-bottom: 3rem;
+    }
+
+    .work__with button {
+        width: 170px;
+        height: 50px;
+        border-radius: 5px;
+        gap: 8px;
+        margin: 3rem 0rem 0rem 5rem;
+    }
+
+    .meet__team {
+        height: 97rem;
+
+    }
+
+    .meet__team-text {
+        width: 350px;
+        height: 80px;
+        margin-bottom: 7rem;
+
+    }
+
+    .meet__team-text h1 {
+        font-size: 32px;
+        line-height: 34px;
+
+    }
+
+    .meet__team-text p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 1rem;
+    }
+
+    .team {
+        width: 219px;
+        height: 309px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .team img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team__text {
+        width: 202px;
+    }
+
+    .team__text h3 {
+
+        font-size: 27px;
+        line-height: 28px;
+        text-align: center;
+
+    }
+
+    .team__socials {
+        margin: 0.4rem;
+        text-align: center;
+    }
+
+    .team__text p {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+
+    }
+
+    .team__actual {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .team__socials img {
+        height: 10px;
+        width: 10px;
+    }
+
+    .video {
+        width: 294px;
+        height: 180px;
+        margin-left: -16px;
+    }
+
+
+}

@@ -1,0 +1,637 @@
+.straddle__header {
+    display: flex;
+    /* position: absolute; */
+
+}
+
+.straddle__header-content {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    position: relative;
+    bottom: 4rem;
+    left: 2rem;
+
+}
+
+.straddle__header-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+
+}
+
+.straddle__header-content p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #06232D;
+
+}
+
+.straddle__header-content__input {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.straddle__header-content__input button {
+
+    background: #5FCAF2;
+    border-radius: 8px;
+    padding: 9px 31px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    /* line-height: 24px; */
+    color: #1a1a1a;
+    height: 41px;
+    border: none;
+
+}
+
+.straddle__header-content__input input {
+    width: 341px;
+    height: 40px;
+    margin-right: 15px;
+    /* border-radius: 2px; */
+
+
+}
+
+.straddle__header-content__playstore {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.straddle__header-content__playstore img {
+    margin: 3rem 1rem 0 0;
+    height: 58px;
+}
+
+.straddle__header-image {
+    width: 240px;
+    height: 35rem;
+}
+
+.ellipse {
+
+    height: 438px;
+    position: relative;
+    right: 5rem;
+    bottom: 5rem;
+    top: 6rem;
+}
+
+
+
+.iphone {
+    height: 480px;
+    position: relative;
+    bottom: 24rem;
+    right: 1rem;
+}
+
+span {
+    color: #5FCAF2;
+}
+
+::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-style: 16px;
+    margin-left: 6rem;
+    padding: 1rem;
+}
+
+
+
+.comp {
+    width: 37rem;
+    height: 30rem;
+    padding: 2rem;
+    border-radius: 33px;
+    background-color: rgb(237, 248, 247);
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 14px #aaa;
+}
+
+.text {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 109px;
+    text-align: center;
+    color: #12A3D8;
+    margin-bottom: 2rem;
+}
+
+.comp h1 {
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #12A3D8;
+    margin: 2rem 0;
+
+}
+
+.comp p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.001em;
+    text-align: left;
+    color: #0C455A;
+    width: 18rem;
+}
+
+
+
+.straddle__comp {
+    /* width: 245px; */
+    /* height: 200px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.straddle__about {
+    width: 821px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.straddle__about h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: center;
+    margin-right: 28rem;
+
+}
+
+.straddle__about p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 36px;
+    color: #0C455A;
+}
+
+.straddle__different h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 2rem 0;
+
+}
+
+.blurimage {
+    height: 20px;
+    width: 30px;
+}
+
+
+.blurry {
+    filter: blur(0.08rem);
+    width: 17rem;
+    margin: 0 2rem;
+}
+
+.different__model,
+.different__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 340px;
+    /* height: 300px;     */
+}
+
+.different__model p {
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    color: #0C455A;
+    margin: 0rem 0rem 3rem 0;
+}
+
+.different__content p,
+.different__marketplace p {
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    color: #0C455A;
+    margin: 0rem 0rem 3rem 3rem;
+}
+
+.different__container {
+    display: flex;
+    width: 1205px;
+
+}
+
+.different__content {
+    margin: 0 2rem;
+}
+
+.different__marketplace {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+}
+
+.different__marketplace-image {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 2rem;
+
+}
+
+.different__blurry {
+    filter: blur(0.08rem);
+    width: 165px;
+    height: 175px
+}
+
+.different__card {
+    width: 165px;
+    height: 175px
+}
+
+.download__links {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.download__links img {
+    margin-left: 1rem;
+}
+
+.oil__blurry {
+    filter: blur(0.08rem);
+    width: 19rem;
+    margin: 0 3rem;
+
+}
+
+.soya {
+    width: 22rem;
+}
+
+.oil {
+    width: 22rem;
+    margin: 0 2rem;
+}
+
+.Signup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Signup h1 {
+    width: 32rem;
+    font-family: "Poppins";
+    font-size: 63px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #06232D;
+}
+
+
+.Signup p {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #06232D;
+
+}
+
+.Signup__playstore img {
+    margin: 1rem 1rem 0 0;
+    height: 58px;
+}
+
+.Iphone {
+    width: 471px;
+
+}
+
+
+@media screen and (max-width:550px) {
+    .straddle__header {
+        display: flex;
+       
+
+        flex-direction: column;
+        /* position: absolute; */
+    }
+
+    .straddle__header-content {
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 0;
+        position: relative;
+        bottom: 0;
+        width: 350px;
+
+    }
+
+    .straddle__header-content h1 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 60px;
+        width: 297px;
+      
+    
+
+    }
+
+    .straddle__header-content p {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 26px;
+  
+
+    }
+
+    .straddle__header-content__input {
+        margin-top: 1rem;
+        width: 300px;
+    
+    
+    }
+
+    .straddle__header-content__input button {
+
+        border-radius: 6px;
+        padding: 5px 20px;
+        font-size: 12px;
+        height: 45px;
+        border: none;
+     
+
+
+    }
+
+    .straddle__header-content__input input {
+        width: 240px;
+        height: 45px;
+
+    
+    }
+
+    .straddle__header-content__playstore img {
+        margin: 2rem 0.5rem 0.5rem 0.5rem;
+        height: 40px;
+       
+
+    }
+
+    .straddle__header-image {
+        height: 18rem;
+    }
+
+    .ellipse {
+        display: none;
+    }
+
+    .iphone {
+        height: 300px;
+        /* position: relative; */
+        margin-top: 28rem;
+        left: 5rem;
+      
+        
+    }
+
+    ::placeholder {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        margin-left: 4rem;
+        padding: 0.5rem;
+    }
+
+    .straddle__about {
+        width: 400px;
+        margin-left: 0rem;
+     
+    }
+
+
+    .straddle__about h1 {
+        font-size: 35px;
+        line-height: 35px;
+        text-align: center;
+        margin-right: 17rem;
+        width: 17rem;
+    }
+
+    .straddle__about p {
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 1rem;
+    }
+
+    .comp {
+        width: 25rem;
+        height: 15rem;
+        padding: 1rem;
+        border-radius: 23px;
+        margin-bottom: 1rem;
+        
+    }
+
+    .text {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 89px;
+        
+    }
+
+    .comp h1 {
+
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 44px;
+        margin: 1rem 0;
+
+    }
+
+    .comp p {
+        font-size: 13px;
+        line-height: 15px;
+        width: 15rem;
+    }
+
+    .straddle__different h1 {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 66px;   
+
+    }
+
+    .blurimage {
+        height: 10px;
+        width: 20px;
+    }
+
+
+    .blurry {
+        filter: blur(0.08rem);
+        width: 13rem;
+    }
+
+    .different__model,
+    .different__content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 282px;
+        /* margin-left: 2rem; */
+        /* height: 300px;     */
+       
+    }
+
+    .different__model p {
+        font-size: 22px;
+        margin-bottom: 1rem;
+        /* margin-right: 2rem; */
+        margin: auto;
+    }
+
+    .different__content p,
+    .different__marketplace p {
+        font-size: 22px;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .different__container {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 0;
+
+    }
+
+    .different__content {
+        margin: 1rem 0;
+    }
+
+    .different__marketplace {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .different__marketplace-image {
+        display: flex;
+        flex-direction: row;
+        margin:0 1rem 0 -3px;
+
+    }
+
+    .different__blurry {
+        filter: blur(0.08rem);
+        width: 165px;
+        height: 175px;
+    }
+
+    .different__card {
+        width: 165px;
+        height: 175px;
+        margin-right: 2rem;
+    }
+
+    .download__links {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .download__links img {
+        margin-left: 1rem;
+        width: 40px;
+        margin-bottom: 1rem;
+       
+    }
+
+    .oil__blurry {
+        filter: blur(0.08rem);
+        width: 11rem;
+    }
+
+    .soya {
+        width: 17rem;
+    }
+
+    .oil {
+        width: 14rem;
+    }
+
+    .Signup {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 400px;
+        margin-right: 1rem;
+   
+    }
+
+    .Signup h1 {
+        width: 20rem;
+        font-size: 22px;
+        margin-right: 1rem;
+    }
+
+
+    .Signup p {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        width: 283px;
+    }
+
+    }
+
+   
+    .Signup__playstore img {
+        margin: 1rem 1rem 0 0;
+        height: 40px;
+        margin-bottom: 2rem;
+     
+
+    }
+
+    .Iphone12 img {
+        height: 300px;
+        margin: 0 0.5rem;
+    }
+}
+
+
+
+
