@@ -19,13 +19,14 @@ const Footer = () => {
         <h1>Ready to get started with Straddle?</h1>
         <div className="top__content-playstore">
           <img src={Apple} />
-          <img src={Google} />
+         <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"> <img src={Google} /></Link>
         </div>
       </div>
       <hr />
       <div className="middle__content section__padding">
         <div className="white__logo">
-          <img src={logo2} />
+        <Link to="/"><img src={logo2} /></Link>
+         
           <p>Join our Straddle Community today</p>
         </div>
         <div className="middle__content-container">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./work.css";
 import soya from "../../assets/soya.png";
 import oil from "../../assets/oil.png";
@@ -93,8 +94,11 @@ const Header = () => {
       <button type="button">Join Waitlist</button>
     </div>
     <div className="straddle__header-content__playstore">
-      <img  className ='apple 'src={Apple} alt="Apple" />
-      <img className='google' src={Google} alt="Google" />
+     
+      <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"> <img  className ='apple 'src={Apple} alt="Apple" /></Link>
+     
+      <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"> <img className='google' src={Google} alt="Google" /></Link>
+     
     </div>
     </div>
     <div className="straddle__header-image">
@@ -158,8 +162,10 @@ const Blurry = () => {
       </div>
     </div>
     <div className="download__links">
-        <img src={playstore} />
-        <img src={applestore} />
+    <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"> <img src={playstore} /></Link>
+    <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle">  <img src={applestore} /></Link>
+       
+       
     </div>
     </>
   );
@@ -176,8 +182,10 @@ const Blurry = () => {
         </div>
        
         <div className="Signup__playstore">
-        <img  src={Google}/>
-        <img src={Apple} />
+        <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"><img  src={Google}/></Link>
+        <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle">  <img src={Apple} /></Link>
+     
+      
         </div>
         
       </div>
