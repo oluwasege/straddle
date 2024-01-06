@@ -118,6 +118,7 @@ span {
     background-color: rgb(237, 248, 247);
     margin-bottom: 2rem;
     box-shadow: 1px 1px 14px #aaa;
+    cursor: pointer;
 }
 
 .text {
@@ -131,6 +132,70 @@ span {
     margin-bottom: 2rem;
 }
 
+ /* .comp:hover .comp img{
+    background-color: black;
+    display: block;
+} */
+
+.comp{
+
+    display: flex;
+    position: relative;
+}
+.comp img{
+    display: none;
+}
+
+ .comp__blue:hover{
+    background-color:#12A3D8;
+}
+ .comp__blue:hover h1, .comp__blue:hover p{
+    color: white;
+}
+ .comp__darkblue:hover{
+    background-color:#032e3d;
+}
+ .comp__darkblue:hover p{
+    color:white;
+}
+ .comp__purple:hover{
+    background-color:#6357c0;
+}
+ .comp__purple:hover h1,.comp__purple:hover p {
+   color: white;
+}
+ .comp__yellow:hover{
+    background-color:#e1f00b;
+}
+ .comp__yellow:hover h1,
+ .comp__yellow:hover p{
+   color: black;
+}
+ .comp__text-yellow:hover{
+    background-color:#12A3D8;
+}
+ .comp__text-yellow:hover h1, .comp__text-yellow:hover p{
+   color: yellow;
+}
+ .comp__black:hover{
+    background-color:black;
+    
+}
+ .comp__black:hover h1, .comp__black:hover p{
+  color: white;
+    
+}
+
+.comp:hover img{
+    display: block;
+    position: absolute;
+    width: 281px;
+    height: 417px;
+    margin-top: 2rem;
+    border-bottom-right-radius: 44px;
+
+}
+
 .comp h1 {
     font-family: "Poppins";
     font-size: 32px;
@@ -140,6 +205,7 @@ span {
     text-align: left;
     color: #12A3D8;
     margin: 2rem 0;
+    width: 17rem;
 
 }
 
@@ -338,7 +404,63 @@ span {
 }
 
 
-@media screen and (max-width:550px) {
+.container {
+    width: 100%;
+    height: 310px;
+    position: relative;
+    top: 7rem;
+    left: 0rem;
+}
+  
+.container>h1 {
+    font-size: 49px;
+    text-transform: uppercase;
+    color: #06232D;
+    opacity: 0;
+    height: 0px;
+    }
+  .container>h1:nth-child(1){
+    animation: animation 12s infinite;
+  }
+  .container>h1:nth-child(2){
+    animation: animation 12s infinite;
+    animation-delay: 4s;
+  }
+  .container>h1:nth-child(3){
+    animation: animation 12s infinite;
+    animation-delay: 8s;
+  }
+  @keyframes animation {
+      0% {opacity: 0; height: auto;}
+      16% {opacity: 1;}
+      33% {opacity: 0; height: 0px;}
+      100% {opacity: 0; height: 0px;}
+  }
+
+.slideInRight {
+   
+    animation-name: slideInRight;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    }
+
+    @keyframes slideInRight {
+    0% {
+
+    transform: translate(5em,3em);
+    visibility:hidden;
+    }
+    100% {
+    transform: translate(0);
+    }
+    } 
+  
+.comp .straddle__comp .comp__signup:hover{
+    background-color: black;
+}
+
+
+@media screen and (max-width:550px) { 
     .straddle__header {
         display: flex;
        
@@ -355,14 +477,14 @@ span {
         flex-direction: column;
         margin-right: 0;
         position: relative;
-        bottom: 0;
+        bottom: 43px;
         width: 350px;
 
     }
 
     .straddle__header-content h1 {
         font-weight: 700;
-        font-size: 35px;
+        font-size: 31px;
         line-height: 60px;
         width: 297px;
       
@@ -398,7 +520,7 @@ span {
     }
 
     .straddle__header-content__input input {
-        width: 240px;
+        width: 313px;
         height: 45px;
 
     
@@ -446,7 +568,6 @@ span {
         font-size: 35px;
         line-height: 35px;
         text-align: center;
-        margin-right: 17rem;
         width: 17rem;
     }
 
@@ -614,10 +735,7 @@ span {
         text-align: center;
         width: 283px;
     }
-
-    }
-
-   
+    
     .Signup__playstore img {
         margin: 1rem 1rem 0 0;
         height: 40px;
@@ -630,7 +748,23 @@ span {
         height: 300px;
         margin: 0 0.5rem;
     }
-}
+
+
+    .container {
+        height: 258px;
+        top: 1rem;
+      } 
+
+
+    }
+
+   
+    
+     
+
+   
+    
+    
 
 
 

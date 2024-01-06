@@ -51,7 +51,9 @@
 ul {
     list-style: none;
 }
-
+li:hover{
+    color: #5FCAF2;
+}
 .straddle__navbar-links_container p,
 .straddle__navbar-contact p,
 .straddle__navbar-menu_container p {
@@ -169,6 +171,10 @@ ul {
   ul{
     list-style: none;
   }
+  
+  li:hover{
+    color: #5FCAF2;
+}
 
 }
 

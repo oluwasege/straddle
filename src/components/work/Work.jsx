@@ -22,27 +22,33 @@ const Work = () => {
         <h1 className="text">How it works</h1>
         <div className="straddle__comp">
           <Comp
+          className='comp comp__blue'
             h1="Sign Up"
             p="Trade smarter, faster, and better with our exchange platform by signing up."
           />
           <Comp
+           className='comp comp__darkblue'
             h1="News"
             p="Stay up to date on the latest agribusiness news with our reliable and accurate information."
           />
           <Comp
+           className='comp comp__purple'
             h1="Profile Account"
             p="Build your profile and access all our features to manage your inventory, connect with buyers and sellers in real time.
         "
           />
           <Comp
+           className='comp comp__yellow'
             h1="Price Aggregation"
             p="Whether buying or selling,  Be confident you're getting the best possible price."
           />
           <Comp
-            h1="Advertise & Sell Commodities"
+           className='comp comp__text-yellow'
+            h1={"Advertise & Sell Commodities"}
             p="Maximize profits by easily advertising and selling your goods, reaching global buyers, and getting the best prices."
           />
           <Comp
+           className='comp comp__black'
             h1="Buy Commodities"
             p="Our advanced search filters makes it easier to find the right price for your next purchase."
           />
@@ -54,39 +60,33 @@ const Work = () => {
   );
 };
 
-const Comp = ({ h1, p }) => {
+const Comp = ({ h1, p, className}) => {
   return (
-    <div className="comp">
+    <div className={className}>
+      <div className="comp__text">
       <h1>{h1}</h1>
       <p>{p}</p>
+      </div>
+     <div className="comp__phone">
+     <img className="slideInRight" src={Iphone} alt="" />
+     </div>
+      
     </div>
   );
 };
 
 const Header = () => {
   return (
-    // <div className="straddle__header section__padding" id="home">
-    //   <div className="straddle__header-content">
-    //     <h1 className="">You won buy, you won sell, Reason Straddle</h1>
-    //     <p>The exchange platform where agriculture and commerce intercept</p>
-    //   </div>
-    //   <div className="straddle__header-content__input">
-    //     <input type="email" placeholder="Enter your email address" />
-    //     <button type="button">Join Waitlist</button>
-    //   </div>
-    //   <div className="straddle__header-content__playstore">
-    //     <img src={Apple} alt="Apple" />
-    //     <img src={Google} alt="Google" />
-    //   </div>
-    //   <div className="straddle__header-image__container">
-    //     <img className="ellipse" src={Ellipse} alt="Ellipse" />
-    //     <img className="Iphone" src={Iphone12} alt="Iphone12" />
-    //   </div>
-    // </div>
-
     <div className="straddle__header section__padding">
     <div className="straddle__header-content">
+      <div className="container">
       <h1 className="">You won buy, you won sell,<br/>Reason <span>Straddle</span></h1>
+      <h1 className="">i choro izuru, i choro ire,<br/>chee echiche <span>Straddle</span></h1>
+      <h1 className="">Kana so ka saya,<br/> Kana so ka sayar, <br/> Tunani <span>Straddle</span></h1>
+    
+      
+      </div>
+   
       <p>The exchange platform where agriculture <br /> and commerce intercept</p>
     
     <div className="straddle__header-content__input">

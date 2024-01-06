@@ -49,8 +49,6 @@
 .about__section {
     display: flex;
     margin: 2rem;
-
-
 }
 
 .about__section .about__center .reverse {
@@ -62,10 +60,23 @@
 .about__center-text {
     margin: auto;
 }
-
+.normal{
+    display: flex;
+}
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+.reverse p,.reverse h1{
+  margin-left: -8rem;
+}
+.reverse img{
+    margin-left: 2rem;
+}
 .about__section img {
     width: 600px;
-    height: 600px
+    height: 530px
 }
 
 .about__section-text {
@@ -152,8 +163,17 @@
     background-color: #5FCAF266;
 
 }
+.orange {
+    width: 357px;
+    height: 240px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #FFD03366;
 
-.values h1 {
+
+}
+
+.values h1,.orange h1 {
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 500;
@@ -164,7 +184,7 @@
 
 }
 
-.values p {
+.values p,.orange p {
     font-family: "Poppins";
     font-size: 11px;
     font-weight: 400;
@@ -268,6 +288,13 @@
 
 }
 
+.team__image img {
+    width: 200px;
+    height: 10ox;
+    height: 187px;
+    border-radius: 50%;
+}
+
 .team__text {
     margin: 1rem 4rem 0 0;
 }
@@ -330,7 +357,6 @@
 
     .about__center {
         display: flex;
-        /* flex-wrap: wrap; */
         flex-direction: column;
 
     }
@@ -366,6 +392,7 @@
         gap: 12px;
         margin: auto;
         margin-left: 0rem;
+        margin-bottom: 1rem;
 
     }
 
@@ -373,7 +400,6 @@
         margin: auto;
         width: 260px;
         height: 72px;
-        margin-top: 2rem;
     }
 
     .about__values-text h1 {
@@ -394,20 +420,32 @@
 
     .about__center .reverse {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
+        margin-top: 3rem;
+     
     }
 
     .values {
         margin-bottom: 2rem;
         width: 322px;
-        height: 220px;
+        height: 263px;
         padding: 40px;
         border-radius: 9px;
         background-color: #5FCAF266;
 
     }
+    .orange {
+        margin-bottom: 2rem;
+        width: 322px;
+        height: 263px;
+        padding: 40px;
+        border-radius: 9px;
+        background-color:  #FFD03366;
+    
 
-    .values h1 {
+    }
+
+    .values h1, .orange h1 {
         font-size: 19px;
         line-height: 20px;
         text-align: left;
@@ -415,7 +453,7 @@
 
     }
 
-    .values p {
+    .values p, .orange p {
         font-size: 16px;
         line-height: 20px;
         text-align: left;
@@ -494,8 +532,8 @@
     }
 
     .team img {
-        width: 200px;
-        height: 200px;
+        width: 173px;
+        height: 131px;
     }
 
     .team__text {
@@ -530,14 +568,29 @@
     }
 
     .team__socials img {
-        height: 10px;
-        width: 10px;
+        height: 20px;
+        width: 20px;
     }
 
     .video {
         width: 294px;
         height: 180px;
         margin-left: -16px;
+    }
+    .normal{
+        display: flex;
+        flex-direction: column;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .reverse p,.reverse h1{
+      margin-left: 0;
+    }
+    .reverse img{
+        margin-left: 0;
     }
 
 

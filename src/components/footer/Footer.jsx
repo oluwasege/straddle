@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
             <div className="contact">
               <img src={phone} />
-              <p>+234 811 270 4705</p>
+              <p>09072203493</p>
             </div>
           </div>
         </div>
