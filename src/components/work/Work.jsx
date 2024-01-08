@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./work.css";
 import soya from "../../assets/soya.png";
 import oil from "../../assets/oil.png";
-import card from "../../assets/card.png";
+import card from "../../assets/Card.png";
 import playstore from '../../assets/playstore.png'
 import applestore from '../../assets/applestore.png'
 import Google from '../../assets/Google.png'
